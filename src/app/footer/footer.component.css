@@ -1,0 +1,55 @@
+.container {
+    width: 70%;
+}
+.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #2c3e50;
+    color: #fff;
+}
+h4, .h4 {
+    font-size: 1.5rem;
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+i:not(:root) {
+    overflow: visible;
+}
+.link {
+    width: 3em !important;
+    height: 3em !important;
+}
+i {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.copyright {
+    background-color: #1a252f;
+}
+small, .small {
+    font-size: 80%;
+    font-weight: 400;
+}
+.scroll-to-top {
+    z-index: 1042;
+    right: 1rem;
+    bottom: 1rem;
+    display: none;
+}
+.scroll-to-top a {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: rgba(33, 37, 41, 0.5);
+    line-height: 3.1rem;
+}

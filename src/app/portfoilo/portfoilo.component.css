@@ -1,0 +1,48 @@
+.portfolio {
+    padding: 6rem 0;
+}
+.container {
+    width: 70%;
+}
+.container .portfolio-title h2{
+    font-size: 3.5rem;
+    line-height: 2rem;
+    color: #212529;
+}
+.divider-custom {
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divider-custom-line1 {
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: #212529;
+    left: 30px;
+}
+.divider-custom-line2 {
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: #212529;
+    right: 30px;
+    border: none;
+}
+.portfolio-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom:0;
+    font-size: 5rem; 
+    background-color:  #1abc9c;
+    opacity: 0;
+    transition:opacity 1s , width 1s , height 1s  ;
+}
+
+.grid:hover .portfolio-icon {
+    opacity: 0.9 ;
+} 
